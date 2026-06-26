@@ -58,7 +58,7 @@ export default function CartDrawer({
                 </div>
                 <h3 className="font-serif text-md font-bold text-stone-800">Sua cesta está vazia</h3>
                 <p className="mt-1 text-xs text-stone-400 max-w-xs px-4">
-                  Escolha um sabor tradicional em nosso catálogo ou experimente misturar suas frutas favoritas no Sommelier Customizado!
+                  Escolha um sabor tradicional em nosso catálogo ou monte uma cesta com suas frutas favoritas.
                 </p>
               </div>
             ) : (

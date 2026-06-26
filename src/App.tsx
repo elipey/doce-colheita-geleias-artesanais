@@ -20,7 +20,7 @@ import ProductCard from "./components/ProductCard";
 import CartDrawer from "./components/CartDrawer";
 import CheckoutModal from "./components/CheckoutModal";
 import { PRODUCTS } from "./data";
-import { CartItem, Product, CustomJamRecipe, AISommelierResponse } from "./types";
+import { CartItem, Product } from "./types";
 
 export default function App() {
   // Shopping Cart Persistence

@@ -20,25 +20,11 @@ export interface CustomJamRecipe {
   textNote: string;
 }
 
-export interface AISommelierResponse {
-  nomeDoProduto: string;
-  avaliacaoDoChef: string;
-  historiaSabor: string;
-  harmonizacaoSugerida: string;
-  visualRotulo: string;
-  medidorEquilibrio: {
-    acidez: number;
-    docura: number;
-    intensidadeEspeciarias: number;
-  };
-}
-
 export interface CartItem {
   id: string; // Unique cartridge instance identifier (products can have multiple with different custom specs)
   product: Product;
   quantity: number;
   customRecipe?: CustomJamRecipe;
-  aiSommelier?: AISommelierResponse;
 }
 
 export interface CustomerDetails {

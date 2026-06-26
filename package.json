@@ -2,7 +2,7 @@
   "name": "doce-colheita-geleias-artesanais",
   "private": true,
   "version": "0.0.0",
-  "description": "Loja virtual responsiva para uma marca ficticia de geleias artesanais, com catalogo, carrinho, checkout simulado e sommelier de sabores com IA.",
+  "description": "Loja virtual responsiva para uma marca ficticia de geleias artesanais, com catalogo, carrinho e checkout simulado.",
   "type": "module",
   "keywords": [
     "react",
@@ -20,7 +20,6 @@
     "lint": "tsc --noEmit"
   },
   "dependencies": {
-    "@google/genai": "^2.4.0",
     "@tailwindcss/vite": "^4.1.14",
     "@vitejs/plugin-react": "^5.0.4",
     "lucide-react": "^0.546.0",
@@ -28,7 +27,6 @@
     "react-dom": "^19.0.1",
     "vite": "^6.2.3",
     "express": "^4.21.2",
-    "dotenv": "^17.2.3",
     "motion": "^12.23.24"
   },
   "devDependencies": {

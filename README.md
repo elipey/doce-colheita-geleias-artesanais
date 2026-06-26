@@ -5,7 +5,7 @@
 <h1 align="center">Doce Colheita - Geleias Artesanais</h1>
 
 <p align="center">
-  Loja virtual responsiva para uma marca fictícia de geleias artesanais, com catálogo, carrinho, checkout simulado e uma experiência de IA para criação de sabores personalizados.
+  Loja virtual responsiva para uma marca fictícia de geleias artesanais, com catálogo, carrinho e checkout simulado.
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@
 
 ## Sobre o projeto
 
-O **Doce Colheita** é um projeto demonstrativo de e-commerce criado para apresentar uma experiência de compra elegante, artesanal e responsiva. A proposta é simular a presença digital de uma pequena marca gourmet, misturando visual acolhedor, catálogo de produtos, carrinho persistente e um recurso de IA para sugerir geleias personalizadas.
+O **Doce Colheita** é um projeto demonstrativo de e-commerce criado para apresentar uma experiência de compra elegante, artesanal e responsiva. A proposta é simular a presença digital de uma pequena marca gourmet, misturando visual acolhedor, catálogo de produtos, carrinho persistente e checkout demonstrativo.
 
 Este repositório foi pensado como peça de portfólio: ele mostra organização de componentes, consumo de API própria, uso de TypeScript, layout moderno e preocupação com experiência do usuário.
 
@@ -36,7 +36,6 @@ Este repositório foi pensado como peça de portfólio: ele mostra organização
 - Modal de checkout com validação básica de dados.
 - Geração de número de pedido simulado.
 - Endpoint backend para finalizar pedidos.
-- Sommelier de geleias com IA usando Gemini.
 - Interface responsiva para desktop e mobile.
 - Identidade visual voltada para uma marca rural, artesanal e gourmet.
 
@@ -45,7 +44,6 @@ Este repositório foi pensado como peça de portfólio: ele mostra organização
 - Criação de interfaces modernas com **React** e **TypeScript**.
 - Separação de responsabilidades entre componentes, dados e tipos.
 - Construção de API com **Express**.
-- Uso seguro de variável de ambiente para integração com IA.
 - Fluxo completo de e-commerce demonstrativo.
 - Escrita de um README apresentável para portfólio.
 - Build de produção com **Vite** e empacotamento do servidor com **esbuild**.
@@ -59,7 +57,6 @@ Este repositório foi pensado como peça de portfólio: ele mostra organização
 | Vite | Ambiente de desenvolvimento e build |
 | Express | Servidor e rotas da API |
 | Tailwind CSS | Estilização da aplicação |
-| Google GenAI SDK | Integração com Gemini para o sommelier de sabores |
 | Lucide React | Ícones da interface |
 | Motion | Animações e microinterações |
 
@@ -87,7 +84,6 @@ Este repositório foi pensado como peça de portfólio: ele mostra organização
 | Rota | Método | Descrição |
 | --- | --- | --- |
 | `/api/checkout` | `POST` | Simula o recebimento de um pedido e retorna um número de ordem |
-| `/api/chef-sommelier` | `POST` | Usa IA para criar uma sugestão personalizada de geleia |
 
 ## Como rodar localmente
 
@@ -111,25 +107,13 @@ Antes de começar, tenha o **Node.js** instalado na máquina.
    npm install
    ```
 
-4. Crie um arquivo `.env` baseado no `.env.example`:
-
-   ```bash
-   cp .env.example .env
-   ```
-
-5. Caso queira testar o sommelier com IA, preencha a variável:
-
-   ```env
-   GEMINI_API_KEY=sua_chave_aqui
-   ```
-
-6. Inicie o projeto:
+4. Inicie o projeto:
 
    ```bash
    npm run dev
    ```
 
-7. Acesse no navegador:
+5. Acesse no navegador:
 
    ```txt
    http://localhost:3000
@@ -154,8 +138,6 @@ npm start
 ## Observações importantes
 
 - O checkout é demonstrativo e não processa pagamentos reais.
-- A integração com IA depende de uma chave `GEMINI_API_KEY`.
-- O arquivo `.env` não deve ser enviado para o GitHub.
 - O projeto representa uma marca fictícia, criada para fins de estudo e portfólio.
 
 ## Possíveis melhorias futuras
