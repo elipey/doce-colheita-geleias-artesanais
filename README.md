@@ -13,6 +13,7 @@
   <img alt="TypeScript" src="https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=fff" />
   <img alt="Vite" src="https://img.shields.io/badge/Vite-6-646CFF?style=for-the-badge&logo=vite&logoColor=fff" />
   <img alt="Express" src="https://img.shields.io/badge/Express-API-000000?style=for-the-badge&logo=express&logoColor=fff" />
+  <img alt="Portfolio" src="https://img.shields.io/badge/Portfolio-Projeto-22c55e?style=for-the-badge" />
 </p>
 
 ## Sobre o projeto
@@ -27,6 +28,17 @@ Este repositório foi pensado como peça de portfólio: ele mostra organização
   <img src="src/assets/images/geleias_showcase_1781560153090.jpg" alt="Geleias artesanais Doce Colheita" width="45%" />
   <img src="src/assets/images/tortas_showcase_1781560169665.jpg" alt="Tortas artesanais Doce Colheita" width="45%" />
 </p>
+
+## Destaques do projeto
+
+| Destaque | Descrição |
+| --- | --- |
+| Experiência de loja | Simula uma jornada completa: catálogo, carrinho, checkout e confirmação de pedido |
+| Visual profissional | Interface com identidade artesanal, imagens de produto e acabamento de marca |
+| Projeto responsivo | Layout preparado para funcionar bem em desktop e dispositivos móveis |
+| Código organizado | Componentes separados, tipos TypeScript e dados centralizados |
+| Backend próprio | API em Express para simular o recebimento de pedidos |
+| Pronto para portfólio | README estruturado, tecnologias claras e instruções para rodar localmente |
 
 ## Funcionalidades
 
