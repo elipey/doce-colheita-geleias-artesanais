@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --color-emerald-50: #fffbfc;
+  --color-emerald-100: #ffecd6;
+  --color-emerald-200: #fed7aa;
+  --color-emerald-300: #fdba74;
+  --color-emerald-400: #fb923c;
+  --color-emerald-500: #f97316; /* Laranja Abóbora */
+  --color-emerald-600: #ea580c; /* Laranja vibrante */
+  --color-emerald-700: #d97706; /* Laranja escuro / Âmbar */
+  --color-emerald-800: #c2410c; /* Terracota */
+  --color-emerald-900: #7c2d12; /* Vermelho argila / Marrom */
+  --color-emerald-950: #451a03; /* Chocolate Escuro */
+
+  /* Map traditional amber as well if needed */
+  --color-amber-50: #fffbeb;
+  --color-amber-100: #fef3c7;
+  --color-amber-500: #f59e0b;
+  --color-amber-600: #d97706;
+  --color-amber-700: #b45309;
+  --color-amber-800: #92400e;
+  --color-amber-900: #78350f;
+
+  /* Cozy background colors */
+  --color-stone-50: #faf6f0;
+  --color-stone-100: #f3eae0;
+  --color-stone-200: #e3d5ca;
+
+  /* Beautiful Fonts */
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-[#5c3e06]: #5c3e06;
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+body {
+  background-image: linear-gradient(
+    to bottom,
+    rgba(250, 246, 240, 0.94),
+    rgba(250, 246, 240, 0.94)
+  ), url("/src/assets/images/tortas_showcase_1781560169665.jpg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
